@@ -143,6 +143,7 @@
 
           scope.hidePopover = function() {
             hider_.hide($popover, 0);
+            elm.focus();
           };
 
           $popover
